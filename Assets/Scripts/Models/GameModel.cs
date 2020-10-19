@@ -2,11 +2,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
 using System.IO;
-
-
-
 using System.Text;
 using SQLite4Unity3d;
 
@@ -14,9 +10,7 @@ using SQLite4Unity3d;
 
 public static class GameModel
 {
-
 	static String _name;
-
 	public static string Name{
 		get 
 		{ 
